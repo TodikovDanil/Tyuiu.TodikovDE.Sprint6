@@ -37,5 +37,10 @@ namespace Tyuiu.TodikovDE.Sprint6.Task6.V26.Lib
             }
             return strResult;
         }
+
+        public string CollectTextFromFile(string str, string path)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
