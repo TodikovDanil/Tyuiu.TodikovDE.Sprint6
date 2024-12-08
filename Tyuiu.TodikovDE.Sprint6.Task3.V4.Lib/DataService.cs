@@ -16,9 +16,9 @@ namespace Tyuiu.TodikovDE.Sprint6.Task3.V4.Lib
             {
                 for (int j = 0; j < columns; j++)
                 {
-                    if (matrix[i, 2] % 2 == 0)
+                    if (matrix[1, j] % 2 == 0)
                     {
-                        matrix[i, 2] = 0;
+                        matrix[1, j] = 0;
                     }
                 }
             }
