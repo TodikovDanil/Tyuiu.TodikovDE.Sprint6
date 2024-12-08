@@ -10,7 +10,7 @@ namespace Tyuiu.TodikovDE.Sprint6.Task6.V26.Lib
     public class DataService : ISprint6Task6V26
     {
         public int len = 0;
-        public string CollectTextFromFile(string path)
+        public string CollectTextFromFile(string str, string path)
         {
             string strResult;
             using (StreamReader reader = new StreamReader(path))
@@ -36,11 +36,6 @@ namespace Tyuiu.TodikovDE.Sprint6.Task6.V26.Lib
                 strResult = string.Join(" ", res);
             }
             return strResult;
-        }
-
-        public string CollectTextFromFile(string str, string path)
-        {
-            throw new NotImplementedException();
         }
     }
 }
