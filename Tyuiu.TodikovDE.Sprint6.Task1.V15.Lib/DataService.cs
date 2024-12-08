@@ -26,7 +26,7 @@ namespace Tyuiu.TodikovDE.Sprint6.Task1.V15.Lib
                 }
                 else
                 {
-                    y = Math.Round((Math.Cos(x)/(x - 0.7)) - Math.Sin(x) - 12 * x + 2, 2);
+                    y = Math.Round((Math.Cos(x)/(x - 0.7)) - Math.Sin(x) * 12 * x + 2, 2);
                     valueArray[count] = y;
                     count++;
                 }
